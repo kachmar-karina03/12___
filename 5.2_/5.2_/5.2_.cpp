@@ -1,4 +1,4 @@
-// Лабораторна робота No 5.2
+п»ї// Р›Р°Р±РѕСЂР°С‚РѕСЂРЅР° СЂРѕР±РѕС‚Р° No 5.2
 #include <iostream>
 #include <iomanip>
 #include <cmath>
@@ -45,8 +45,7 @@ double S(const double x, const double eps, int& n, double s)
 }
 double A(const double x, const int n, double a)
 {
-    double R = x / n; // вираз залежить від умови завдання варіанту 
+    double R = x / n; // РІРёСЂР°Р· Р·Р°Р»РµР¶РёС‚СЊ РІС–Рґ СѓРјРѕРІРё Р·Р°РІРґР°РЅРЅСЏ РІР°СЂС–Р°РЅС‚Сѓ 
     a *= R;
     return a;
 }
-
